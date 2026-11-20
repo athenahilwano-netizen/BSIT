@@ -86,6 +86,8 @@ namespace JubuluFoodKiosk
 
             Console.WriteLine("----------------------------------------------");
 
+        }
+
             private static void CustomerView()
         {
             ClearCart();
@@ -170,6 +172,7 @@ namespace JubuluFoodKiosk
                 Console.WriteLine(
                     $"Enter a valid whole number from {minimum} to {maximum}.");
             }
+        }
             private static bool ReviewOrder()
         {
             while (true)
@@ -573,6 +576,6 @@ namespace JubuluFoodKiosk
         public decimal Change { get; set; }
     }
 }
-    }
+    
 
-}
+
