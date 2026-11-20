@@ -276,6 +276,5 @@ namespace JubuluFoodKiosk
             }
         }
     }
-        
-    }
+   
 }
